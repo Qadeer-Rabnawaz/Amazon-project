@@ -1,0 +1,296 @@
+*{
+    margin: 0%;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.nav-logo{
+    width: 100px;
+    height: 50px;
+    
+}
+
+.logo-img{
+    width: 100px;
+    height: 45px;
+    
+    
+}
+.border{
+    border: 2px solid transparent;
+    padding-top: 4px;
+}
+.border:hover {
+border: 2px solid white;
+}
+.nav-address{
+    width: 140px;
+    height: 50px;
+    color: white;
+    margin-left: 15px;
+   
+}
+.add-icon{
+    width: 140px;
+    height: 50px;
+    color: white;
+    margin-top: 5px;
+    
+
+}
+/*Box 2*/
+.add-1{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+    margin-top: 10px;
+
+
+}
+
+.add-2{
+    font-size: 1rem;
+    
+}
+.add-icon{
+    display: flex;
+    
+    
+}
+
+/*box 3*/
+
+.nav-search{
+    display: flex;
+background-color: pink;
+width: 620px;
+height: 40px;
+border-radius: 3px;
+justify-content: space-evenly;
+
+}
+.nav-search:hover {
+     border: 2px solid orange;
+}
+
+.select-search{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    text-align: center;
+    border:none;
+}
+.input-search{
+    width: 100%;
+    font-size: 0.95rem;
+    border: none;
+    
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+   font-size: 1.2rem;
+   background-color: #febd68;
+   border-bottom-right-radius: 3px;
+   border-top-right-radius: 3px;
+   color: #0f1111;
+
+}
+/*box 4 */
+.nav-signin{
+    color: white;
+}
+.signin-span1{
+    font-size: 0.7rem;
+}
+.signin-p2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 5 */
+
+.nav-return{
+    color: white;
+}
+.return-span1{
+    font-size: 0.7rem;
+}
+.return-p2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 6 */
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*panal bo start*/
+.panal{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* box 1*/
+
+.panal-all{
+    margin-left: 20px;
+    display: flex;
+}
+
+.panal-all i {
+    font-size: 20px;
+}
+
+
+.panal-span1{
+    font-size: 0.85rem;
+    font-weight:700;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+/*box */
+
+.panal-opt p {
+    display: inline;
+    margin-left: 10px;
+    font-size: 0.85rem;
+    font-weight: 540;
+}
+
+.panal-opt {
+    width: 100%;
+    font-size: 0.85rem;
+}
+
+/*hero section*/
+
+.hero{
+    background-image: url(hero.jpg);
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+    
+}
+
+.hero-message a {
+    color: #007185;
+    text-decoration: none;
+}
+
+
+/*shoping section start*/
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    
+}
+.box p{
+    color: #007185;
+
+}
+
+
+
+
+.shop-pic{
+    height: 350px;
+    background-image: url(gaming.PNG);
+    background-size: cover;
+}
+
+.shop-pic1{
+    height: 350px;
+    background-image: url(1.PNG);
+    background-size: cover;
+}
+
+.shop-pic2{
+    height: 350px;
+    background-image: url(2.PNG);
+    background-size: cover;
+}
+
+.shop-pic3{
+    height: 350px;
+    background-image: url(3.PNG);
+    background-size: cover;
+}
+
+.shop-pic4{
+    height: 320px;
+    background-image: url(4.PNG);
+    background-size: cover;
+}
+
+.shop-pic5{
+    height: 350px;
+    background-image: url(5.PNG);
+    background-size: cover;
+}
+
+.shop-pic6{
+    height: 350px;
+    background-image: url(6.PNG);
+    background-size: cover;
+}
+
+.shop-pic7{
+    height: 350px;
+    background-image: url(7.PNG);
+    background-size: cover;
+}
+
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
